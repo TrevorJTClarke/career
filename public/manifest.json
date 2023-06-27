@@ -1,0 +1,11 @@
+{
+  "name": "Trevor Clarke",
+  "short_name": "Trevor Clarke",
+  "theme_color": "#EBFFF8",
+  "background_color": "#f9f9f9",
+  "display": "browser",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "description": "I am an entrepreneurial engineer aiming to drastically increase application usability for both users and business. I am passionate about quality code, ease of use, future proof experiences, blockchain and decentralization. Let’s work together!"
+}

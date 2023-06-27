@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALIAS - Your decentralized personality</title>
+  <base href="/">
+  <meta name="og:url" content="alias.cat">
+  <meta name="og:site_name" content="Alias">
+  <meta name="og:type" content="profile">
+  <meta name="og:description"
+    content="Customize your decentralized personality. Publish your avatar, favorite colors and more for your blockchain accounts. Own your personality.">
+  <meta name="og:title" content="Alias - Your decentralized personality">
+  <meta name=msapplication-TileColor content=#10B981>
+  <meta name=theme-color content=#10B981>
+  <meta property="twitter:image" content="./assets/images/og_image.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel=icon type=image/png sizes=16x16 href=/favicon.ico>
+  <!-- <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2337c929%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2290%22>👩‍🎤</text></svg>" /> -->
+  <script>
+    window.global = window;
+  </script>
+  <script type="module">
+    import { Buffer } from "buffer";
+    window.Buffer = Buffer;
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
