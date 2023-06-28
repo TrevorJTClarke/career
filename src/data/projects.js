@@ -74,7 +74,7 @@ export const projects = [
     startDate: '2023-05-18T22:02:03Z',
     endDate: '2023-06-18T21:27:53Z',
     description: 'Automate your favorite DeFi apps, NFTs, wallets, DAOs and cat naps.',
-    img: '/images/croncat/Explore.png',
+    img: '/images/croncat/design/Explore.png',
     bg: '#008f58',
     href: '/',
     externalHref: '',
