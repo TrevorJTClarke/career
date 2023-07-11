@@ -23,6 +23,15 @@ export const projects = [
       video: '/images/astral/astral_nft_transfer.mp4',
     },
     outro: {},
+    awards: [
+      {
+        title: 'Cosmos Game of NFTs - Interchain Hackathon',
+        description: 'Astral won 3rd place for the Interchain NFT UI for stargaze!',
+        url: 'https://dorahacks.io/buidl/6528',
+        icon: '🏆',
+        place: 3,
+      },
+    ],
     showcase: [
       {
         src: '/images/astral/1.png',
@@ -86,6 +95,29 @@ export const projects = [
     tags: ['web3', 'website', 'app'],
     tools: ['html', 'css', 'rpc'],
     collabs: [],
+    intro: {},
+    outro: {},
+    awards: [],
+    showcase: [
+      {
+        src: '/images/croncat/design/Explore.png',
+      },
+      {
+        src: '/images/croncat/design/MyRecipes.png',
+      },
+      {
+        src: '/images/croncat/design/Create-Recipe :: Step 1.png',
+      },
+      {
+        src: '/images/croncat/design/Create-Recipe :: Step 2.png',
+      },
+      {
+        src: '/images/croncat/design/Create-Recipe :: Step 3.png',
+      },
+      {
+        src: '/images/croncat/design/CopyCat-Recipe.png',
+      },
+    ]
   },
   {
     slug: 'blockviz',

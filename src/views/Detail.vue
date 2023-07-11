@@ -27,12 +27,29 @@
       </figure>
     </article>
 
+    <div v-if="data?.awards" class="flex flex-col justify-between my-6 md:my-10 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div v-for="item in data.awards" class="pointer-events-none flex w-full justify-between mb-2">
+        <a :href="item.url"
+          class="pointer-events-auto flex w-full items-center gap-x-6 bg-teal-400 px-6 py-2.5 sm:rounded-xl sm:py-3 sm:pl-4 sm:pr-3.5">
+          <span class="h-5 w-5 text-white" aria-hidden="true">{{item.icon}}</span>
+          <p class="text-sm leading-6 text-white">
+            <strong class="font-semibold">{{item.title}}</strong>
+            <svg viewBox="0 0 2 2" class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
+              <circle cx="1" cy="1" r="1" />
+            </svg>
+            {{item.description}}
+          </p>
+          <ChevronRightIcon class="flex-shrink-0 h-6 w-6 text-white ml-auto" />
+        </a>
+      </div>
+    </div>
+
     <div v-if="data?.tags" class="flex justify-between my-6 md:my-10 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <Tags :tags="data.tags" />
       <date class="my-auto text-sm text-slate-400">{{ postTime }}</date>
     </div>
 
-    <div v-if="data?.intro" class="my-6 md:my-10 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div v-if="data?.intro?.title" class="my-6 md:my-10 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="relative isolate overflow-hidden bg-slate-900 px-6 py-20 rounded-3xl sm:px-10 sm:py-24 lg:py-24 xl:px-24">
         <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-center lg:gap-y-0">
           <div class="lg:row-start-2 lg:max-w-md">
@@ -77,12 +94,14 @@ import { projects } from '@/data/projects'
 import {
   EyeIcon,
   LinkIcon,
+  ChevronRightIcon,
 } from '@heroicons/vue/24/outline'
 
 export default {
   components: {
     EyeIcon,
     LinkIcon,
+    ChevronRightIcon,
     Tags,
     Gallery,
 },

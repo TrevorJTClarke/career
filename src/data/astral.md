@@ -17,6 +17,10 @@ Astral offers user-friendly NFT tools, for easy management of ICS721 compatible 
 
 This project was a submission for the [Cosmos Game of NFTs - Interchain Hackathon 2023](https://dorahacks.io/hackathon/game-of-nfts). It was a blast to join forces with [Ravi](https://github.com/ravichain) and coach building CosmosSDK / ICS721 things. 
 
+### 🥉 3rd Place!
+
+This [project won 3rd place](https://dorahacks.io/hackathon/game-of-nfts/results#stargaze%20track)! Super excited for the opportunity to build and get recognition for the work done.
+
 #### What was built?
 
 We set out to build the simplest UI/UX for interchain NFT ownership. The goal was twofold:
