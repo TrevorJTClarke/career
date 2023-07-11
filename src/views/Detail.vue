@@ -39,7 +39,7 @@
             </svg>
             {{item.description}}
           </p>
-          <ChevronRightIcon class="flex-shrink-0 h-6 w-6 text-white ml-auto" />
+          <ChevronRightIcon v-if="item.url" class="flex-shrink-0 h-6 w-6 text-white ml-auto" />
         </a>
       </div>
     </div>
