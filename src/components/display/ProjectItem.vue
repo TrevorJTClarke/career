@@ -16,8 +16,8 @@
       </div>
     </figcaption>
     <figure class="relative z-0 pl-10 scale-100 translate-0 transition-all duration-500 group-hover:scale-105 group-hover:-translate-x-2">
-      <div class="flex overflow-hidden w-full h-[275px] rounded-lg bg-slate-800">
-        <img :src="data.img" :alt="data.description"  class="object-cover min-w-full">
+      <div class="flex overflow-hidden w-full min-h-[275px] h-[275px] rounded-lg bg-slate-800">
+        <img :src="data.img" :alt="data.description"  class="object-cover min-w-full min-h-full">
       </div>
     </figure>
   </router-link>
