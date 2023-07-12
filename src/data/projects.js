@@ -246,7 +246,11 @@ export const projects = [
     tags: ['3dprint', 'robots', 'electronics', 'rpi'],
     tools: ['fusion 360', 'Ultimaker 2', 'Lulzbot Taz 6'],
     collabs: [],
-    intro: {},
+    intro: {
+      title: 'Simulation UI',
+      description: 'For simulating how the robot arm would work, I setup three.js viewport to load the real STL files designed. This allowed me to test out path planning and let the UI send rotation changes to the arm directly.',
+      video: '/images/talus_6/orch_test_ui.mp4',
+    },
     outro: {},
     awards: [],
     showcase: [
@@ -271,6 +275,8 @@ export const projects = [
       { src: '/images/talus_6/screen_10.png' },
       { src: '/images/talus_6/screen_11.png' },
       { src: '/images/talus_6/screen_12.png' },
+      { src: '/images/talus_6/screen_13.png' },
+      { src: '/images/talus_6/screen_14.png' },
     ]
   },
   {
