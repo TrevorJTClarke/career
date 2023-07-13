@@ -31,7 +31,7 @@ We set out to build the simplest UI/UX for interchain NFT ownership. The goal wa
 Ownership is currently fragmented across blockchains, so we needed to provide a simple view that showcased a persons NFT holdings without needing to filter or change networks. We did this by querying holdings on each chain and each chains bridge, then visualizing the network logo within the context of each NFT.
 
 <figure class="relative mt-16">
-  <img class="aspect-video rounded bg-slate-800 object-fit overflow-hidden" src="/images/astral/3.png" alt="Interchain Holdings View" /> 
+  <img class="aspect-video rounded bg-slate-800 object-fit overflow-hidden" src="https://nftstorage.link/ipfs/bafybeidql4f2wvh2yuirft77wvbpzxhmksqdouefjpxke4xayopqpjg62u/3.png" alt="Interchain Holdings View" /> 
   <figcaption style="font-size:12px">
     Interchain Holdings View
   </figcaption>
@@ -40,7 +40,7 @@ Ownership is currently fragmented across blockchains, so we needed to provide a 
 Transferability has never been possible until the ICS721 standard. Prior to this hackathon, only CLI tools were available to move NFTs across chains. Astral was one of the first UI's allowing non-technical people to move their NFT assets across chains.
 
 <figure class="relative mt-16">
-  <img class="aspect-video rounded bg-slate-800 object-fit overflow-hidden" src="/images/astral/transfer_nft_ics721.gif" alt="Transfer animation, used during the 45 second window needed to transfer to any chain." /> 
+  <img class="aspect-video rounded bg-slate-800 object-fit overflow-hidden" src="https://nftstorage.link/ipfs/bafybeidql4f2wvh2yuirft77wvbpzxhmksqdouefjpxke4xayopqpjg62u/transfer_nft_ics721.gif" alt="Transfer animation, used during the 45 second window needed to transfer to any chain." /> 
   <figcaption style="font-size:12px">
     Transfer animation, used during the 45 second window needed to transfer to any chain.
   </figcaption>
