@@ -2,12 +2,12 @@
 <header class="fixed w-full z-40">
   <div class="z-10 w-full">
     <div class="flex w-full pt-[6.5px] pb-4">
-      <div class="relative mx-auto inline-flex bg-slate-800 rounded-full p-1">
+      <div class="relative mx-auto inline-flex bg-slate-800 rounded-full p-1" @mouseenter="mobileMenuActive = true" @mouseleave="mobileMenuActive = false">
 
         <!-- <Search class="z-30" /> -->
 
-        <div class="relative my-auto inline-block text-left pr-6 mr-6 border-r border-slate-600">
-          <div class="flex text-white cursor-pointer" @click.prevent="mobileMenuActive = !mobileMenuActive" @mouseenter="mobileMenuActive = !mobileMenuActive">
+        <div class="relative z-20 my-auto inline-block text-left pr-6 mr-6 border-r border-slate-600">
+          <div class="flex text-white cursor-pointer" @click.prevent="mobileMenuActive = !mobileMenuActive">
             <div class="w-8 h-8 rounded-full overflow-hidden">
               <img class="w-full bg-cover" src="/trevor.jpg" alt="" />
             </div>
@@ -21,15 +21,15 @@
           </div>
         </div>
 
-        <div class="flex">
+        <div class="relative z-20 flex">
           <button class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-full shadow-sm text-base font-medium text-green-800 bg-white opacity-90 hover:opacity-100">
             <span class="hidden 3xl:block text-xs uppercase">Contact</span>
             <PaperAirplaneIcon class="h-4 w-4 md:ml-1" />
           </button>
         </div>
 
-        <div :class="{hidden: !mobileMenuActive}" class="absolute top-12 w-full inset-x-0 transition transform origin-top-center">
-          <div @mouseleave="mobileMenuActive = false" class="rounded-3xl shadow-lg ring-1 ring-black ring-opacity-5 text-white bg-slate-800 divide-y-2 divide-gray-50">
+        <div :class="{hidden: !mobileMenuActive}" class="absolute z-10 top-5 w-full inset-x-0 transition transform origin-top-center">
+          <div class="rounded-3xl rounded-t-none pt-8 shadow-lg ring-1 ring-black ring-opacity-5 text-white bg-slate-800 divide-y-2 divide-gray-50">
             <div class="pt-5 pb-6 px-5">
               <nav class="grid gap-y-8">
 
